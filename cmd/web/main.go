@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/RakibSiddiquee/bookings/internal/config"
+	"github.com/RakibSiddiquee/bookings/internal/handlers"
+	"github.com/RakibSiddiquee/bookings/internal/render"
 	"github.com/alexedwards/scs/v2"
-	"github.com/RakibSiddiquee/bookings/pkg/config"
-	"github.com/RakibSiddiquee/bookings/pkg/handlers"
-	"github.com/RakibSiddiquee/bookings/pkg/render"
 	"log"
 	"net/http"
 	"time"
