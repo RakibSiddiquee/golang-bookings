@@ -1,0 +1,2 @@
+drop_foreign_key("reservations", "reservations_email_idx")
+drop_foreign_key("reservations", "reservations_last_name_idx")
